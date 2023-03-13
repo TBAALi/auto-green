@@ -18,7 +18,6 @@ jobs:
         run: |
           git config --local user.email "jiaxx903@foxmail.com"
           git config --local user.name "TBAALi"
-          # git remote set-url origin https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
           git clone https://github.com/TBAALi/glog.git
           git pull --rebase
           git commit --allow-empty -m "a commit a day keeps your girlfriend away"
